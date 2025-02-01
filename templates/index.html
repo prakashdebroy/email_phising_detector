@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing Email Detector</h1>
+        <p>Enter the email content below to check if it’s phishing or not.</p>
+        <form id="email-form">
+            <textarea id="email_body" name="email_body" rows="6" placeholder="Paste email content here..."></textarea><br><br>
+            <button type="submit">Check Email</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
