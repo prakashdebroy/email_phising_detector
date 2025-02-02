@@ -52,3 +52,7 @@ Ensure you have the following installed:
 - The model will classify the email as **Phishing** or **Legitimate**.
 - to train the model 
 
+## Team DeauthDefy
+##### - Prakash Debroy
+##### - Anshul Rajkumar
+##### - Priyanshu Sahoo
