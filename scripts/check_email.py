@@ -3,8 +3,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 
 # Load the trained model and vectorizer
-model = joblib.load('models/phishing_detector_model_ling.pkl')
-vectorizer = joblib.load('models/vectorizer_ling.pkl')
+model = joblib.load('models/phishing_detector_model.pkl')
+vectorizer = joblib.load('models/vectorizer.pkl')
 
 # Function to check if an email is phishing or not
 def check_email(email_body):

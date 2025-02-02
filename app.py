@@ -6,8 +6,8 @@ import joblib
 app = Flask(__name__)
 
 # Load the trained model and vectorizer
-model = joblib.load('models/phishing_detector_model_ling.pkl')
-vectorizer = joblib.load('models/vectorizer_ling.pkl')
+model = joblib.load('models/phishing_detector_model.pkl')
+vectorizer = joblib.load('models/vectorizer.pkl')
 
 # Function to check if an email is phishing or not
 def check_email(email_body):
@@ -31,9 +31,9 @@ def check_email_route():
         result = check_email(email_body)
         
         if result == 1:
-            message = "This is a phishing email."
+            message = "This seems like a phishing email."
         else:
-            message = "This is not a phishing email."
+            message = "This doesnot seem like a phishing email."
         
         return jsonify({'result': message})
     except Exception as e:
