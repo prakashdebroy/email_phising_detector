@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #000116;
     color: white;
     text-align: center;
 }
@@ -21,6 +21,17 @@ h1 {
     color: #D32F2F;
     font-size: 3em;
     margin-bottom: 20px;
+}
+h2 {
+    color: #787070;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #d7caca;
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
 form {
