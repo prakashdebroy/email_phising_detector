@@ -1,4 +1,6 @@
-# P.S 2: Email Phishing Detector
+# IITK Hackathon ( PS2 )
+
+# Email Phishing Detector
 
 ## Overview
 The Email Phishing Detector is a machine learning-based application that identifies phishing emails using Natural Language Processing (NLP) and classification models. The project is implemented in Python, trained using scikit-learn, and deployed as a web application using Flask.
